@@ -1,5 +1,3 @@
-pip install joblib
-
 import streamlit as st
 import pandas as pd
 import joblib
@@ -26,4 +24,5 @@ def run():
 if __name__ == "__main__":
 
     run()
+
 
