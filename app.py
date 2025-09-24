@@ -1,3 +1,5 @@
+!pip install joblib
+
 import streamlit as st
 import pandas as pd
 import joblib
@@ -22,4 +24,5 @@ def run():
         st.success(sentiment)
 
 if __name__ == "__main__":
+
     run()
